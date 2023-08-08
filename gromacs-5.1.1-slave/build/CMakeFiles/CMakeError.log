@@ -1,0 +1,664 @@
+Determining if files io.h exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_daa20/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_daa20.dir/build.make CMakeFiles/cmTC_daa20.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_daa20.dir/HAVE_IO_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_daa20.dir/HAVE_IO_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:2:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_daa20.dir/HAVE_IO_H.c.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_daa20/fast] 错误 2
+
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7dbf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dbf9.dir/build.make CMakeFiles/cmTC_7dbf9.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7dbf9.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_7dbf9.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'memalign' was not declared in this scope
+   return ((int*)(&memalign))[argc];
+                   ^~~~~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'main'
+   return ((int*)(&memalign))[argc];
+                   ^~~~~~~~
+                   main
+gmake[1]: *** [CMakeFiles/cmTC_7dbf9.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_7dbf9/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5562b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5562b.dir/build.make CMakeFiles/cmTC_5562b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5562b.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_5562b.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: '_aligned_malloc' was not declared in this scope
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^~~~~~~~~~~~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'aligned_alloc'
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^~~~~~~~~~~~~~~
+                   aligned_alloc
+gmake[1]: *** [CMakeFiles/cmTC_5562b.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_5562b/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _fileno exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76cf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76cf1.dir/build.make CMakeFiles/cmTC_76cf1.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_76cf1.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_76cf1.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: '_fileno' was not declared in this scope
+   return ((int*)(&_fileno))[argc];
+                   ^~~~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'fileno'
+   return ((int*)(&_fileno))[argc];
+                   ^~~~~~~
+                   fileno
+gmake[1]: *** [CMakeFiles/cmTC_76cf1.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_76cf1/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _commit exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa406/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa406.dir/build.make CMakeFiles/cmTC_fa406.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_fa406.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_fa406.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_fa406.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_fa406/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rsqrt exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_650ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_650ca.dir/build.make CMakeFiles/cmTC_650ca.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_650ca.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_650ca.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'rsqrt' was not declared in this scope
+   return ((int*)(&rsqrt))[argc];
+                   ^~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'sqrt'
+   return ((int*)(&rsqrt))[argc];
+                   ^~~~~
+                   sqrt
+gmake[1]: *** [CMakeFiles/cmTC_650ca.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_650ca/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrt
+  return ((int*)(&rsqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rsqrtf exist failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4c28/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4c28.dir/build.make CMakeFiles/cmTC_f4c28.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f4c28.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_f4c28.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'rsqrtf' was not declared in this scope
+   return ((int*)(&rsqrtf))[argc];
+                   ^~~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: 'sqrtf'
+   return ((int*)(&rsqrtf))[argc];
+                   ^~~~~~
+                   sqrtf
+gmake[1]: *** [CMakeFiles/cmTC_f4c28.dir/CheckSymbolExists.cxx.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_f4c28/fast] 错误 2
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrtf
+  return ((int*)(&rsqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test _isfinite_compile_ok failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7920b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7920b.dir/build.make CMakeFiles/cmTC_7920b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7920b.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -D_isfinite_compile_ok -I/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/math.h -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_7920b.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function '_isfinite'; did you mean 'isfinite'? [-Wimplicit-function-declaration]
+   _isfinite(f);
+   ^~~~~~~~~
+   isfinite
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: 'f' is used uninitialized in this function [-Wuninitialized]
+   _isfinite(f);
+   ^~~~~~~~~~~~
+Linking C executable cmTC_7920b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7920b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_7920b.dir/src.c.o -o cmTC_7920b  -lm 
+CMakeFiles/cmTC_7920b.dir/src.c.o: In function `main':
+(.text.startup.main+0x10): undefined reference to `_isfinite'
+CMakeFiles/cmTC_7920b.dir/src.c.o: In function `main':
+(.text.startup.main+0x18): undefined reference to `_isfinite'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_7920b] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_7920b/fast] 错误 2
+
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  _isfinite(f);
+}
+Performing C SOURCE FILE Test _finite_compile_ok failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b6ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b6ed.dir/build.make CMakeFiles/cmTC_0b6ed.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0b6ed.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -D_finite_compile_ok -I/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/float.h -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_0b6ed.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function '_finite' [-Wimplicit-function-declaration]
+   _finite(f);
+   ^~~~~~~
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: 'f' is used uninitialized in this function [-Wuninitialized]
+   _finite(f);
+   ^~~~~~~~~~
+Linking C executable cmTC_0b6ed
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b6ed.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_0b6ed.dir/src.c.o -o cmTC_0b6ed 
+CMakeFiles/cmTC_0b6ed.dir/src.c.o: In function `main':
+(.text.startup.main+0x10): undefined reference to `_finite'
+CMakeFiles/cmTC_0b6ed.dir/src.c.o: In function `main':
+(.text.startup.main+0x18): undefined reference to `_finite'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_0b6ed] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_0b6ed/fast] 错误 2
+
+
+Source file was:
+#include <float.h>
+int main(void) {
+  float f;
+  _finite(f);
+}
+Performing C SOURCE FILE Test _callconv___vectorcall failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41860/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41860.dir/build.make CMakeFiles/cmTC_41860.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_41860.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -D_callconv___vectorcall  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_41860.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:1:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'f'
+ int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+                  ^
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:1:62: warning: implicit declaration of function 'f' [-Wimplicit-function-declaration]
+ int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+                                                              ^
+gmake[1]: *** [CMakeFiles/cmTC_41860.dir/src.c.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_41860/fast] 错误 2
+
+
+Source file was:
+int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+Performing C SOURCE FILE Test _callconv___regcall failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c255/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c255.dir/build.make CMakeFiles/cmTC_7c255.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7c255.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -D_callconv___regcall  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_7c255.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:1:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'f'
+ int __regcall f(int i) {return i;} int main(void) {return f(0);}
+               ^
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:1:59: warning: implicit declaration of function 'f' [-Wimplicit-function-declaration]
+ int __regcall f(int i) {return i;} int main(void) {return f(0);}
+                                                           ^
+gmake[1]: *** [CMakeFiles/cmTC_7c255.dir/src.c.o] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_7c255/fast] 错误 2
+
+
+Source file was:
+int __regcall f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function fftwf_have_simd_sse exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7bb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7bb9.dir/build.make CMakeFiles/cmTC_b7bb9.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b7bb9.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse -o CMakeFiles/cmTC_b7bb9.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7bb9
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7bb9.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse -rdynamic CMakeFiles/cmTC_b7bb9.dir/CheckFunctionExists.c.o -o cmTC_b7bb9  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_b7bb9.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_sse'
+CMakeFiles/cmTC_b7bb9.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_sse'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_b7bb9] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_b7bb9/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_sse exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08702/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08702.dir/build.make CMakeFiles/cmTC_08702.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_08702.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse -o CMakeFiles/cmTC_08702.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08702
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08702.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse -rdynamic CMakeFiles/cmTC_08702.dir/CheckFunctionExists.c.o -o cmTC_08702  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_08702.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_sse'
+CMakeFiles/cmTC_08702.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_sse'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_08702] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_08702/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_sse2 exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c36db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c36db.dir/build.make CMakeFiles/cmTC_c36db.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c36db.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse2 -o CMakeFiles/cmTC_c36db.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c36db
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c36db.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse2 -rdynamic CMakeFiles/cmTC_c36db.dir/CheckFunctionExists.c.o -o cmTC_c36db  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_c36db.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_sse2'
+CMakeFiles/cmTC_c36db.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_sse2'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c36db] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_c36db/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_sse2 exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16e2e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16e2e.dir/build.make CMakeFiles/cmTC_16e2e.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_16e2e.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse2 -o CMakeFiles/cmTC_16e2e.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16e2e
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e2e.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse2 -rdynamic CMakeFiles/cmTC_16e2e.dir/CheckFunctionExists.c.o -o cmTC_16e2e  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_16e2e.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_sse2'
+CMakeFiles/cmTC_16e2e.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_sse2'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_16e2e] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_16e2e/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_avx exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dea6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dea6.dir/build.make CMakeFiles/cmTC_2dea6.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2dea6.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx -o CMakeFiles/cmTC_2dea6.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2dea6
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dea6.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx -rdynamic CMakeFiles/cmTC_2dea6.dir/CheckFunctionExists.c.o -o cmTC_2dea6  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_2dea6.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_avx'
+CMakeFiles/cmTC_2dea6.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_avx'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_2dea6] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_2dea6/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_avx2 exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47d7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47d7b.dir/build.make CMakeFiles/cmTC_47d7b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_47d7b.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2 -o CMakeFiles/cmTC_47d7b.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47d7b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47d7b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2 -rdynamic CMakeFiles/cmTC_47d7b.dir/CheckFunctionExists.c.o -o cmTC_47d7b  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_47d7b.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_avx2'
+CMakeFiles/cmTC_47d7b.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_avx2'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_47d7b] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_47d7b/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_avx2_128 exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0cda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0cda.dir/build.make CMakeFiles/cmTC_c0cda.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c0cda.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2_128 -o CMakeFiles/cmTC_c0cda.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0cda
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0cda.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2_128 -rdynamic CMakeFiles/cmTC_c0cda.dir/CheckFunctionExists.c.o -o cmTC_c0cda  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_c0cda.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_avx2_128'
+CMakeFiles/cmTC_c0cda.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_avx2_128'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c0cda] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_c0cda/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_avx512 exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67e68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67e68.dir/build.make CMakeFiles/cmTC_67e68.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_67e68.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx512 -o CMakeFiles/cmTC_67e68.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67e68
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67e68.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx512 -rdynamic CMakeFiles/cmTC_67e68.dir/CheckFunctionExists.c.o -o cmTC_67e68  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_67e68.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_avx512'
+CMakeFiles/cmTC_67e68.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_avx512'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_67e68] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_67e68/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_avx_128_fma exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec672/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec672.dir/build.make CMakeFiles/cmTC_ec672.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_ec672.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx_128_fma -o CMakeFiles/cmTC_ec672.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec672
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec672.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx_128_fma -rdynamic CMakeFiles/cmTC_ec672.dir/CheckFunctionExists.c.o -o cmTC_ec672  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_ec672.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_avx_128_fma'
+CMakeFiles/cmTC_ec672.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_avx_128_fma'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_ec672] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_ec672/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_altivec exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bdf8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bdf8.dir/build.make CMakeFiles/cmTC_2bdf8.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2bdf8.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec -o CMakeFiles/cmTC_2bdf8.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2bdf8
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bdf8.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec -rdynamic CMakeFiles/cmTC_2bdf8.dir/CheckFunctionExists.c.o -o cmTC_2bdf8  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_2bdf8.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_altivec'
+CMakeFiles/cmTC_2bdf8.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_altivec'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_2bdf8] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_2bdf8/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_neon exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06247/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06247.dir/build.make CMakeFiles/cmTC_06247.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_06247.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_neon -o CMakeFiles/cmTC_06247.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06247
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06247.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_neon -rdynamic CMakeFiles/cmTC_06247.dir/CheckFunctionExists.c.o -o cmTC_06247  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_06247.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_neon'
+CMakeFiles/cmTC_06247.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_neon'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_06247] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_06247/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_vsx exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05174/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05174.dir/build.make CMakeFiles/cmTC_05174.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_05174.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_vsx -o CMakeFiles/cmTC_05174.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05174
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05174.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_vsx -rdynamic CMakeFiles/cmTC_05174.dir/CheckFunctionExists.c.o -o cmTC_05174  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_05174.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_vsx'
+CMakeFiles/cmTC_05174.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_vsx'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_05174] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_05174/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_simd_altivec exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4345/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4345.dir/build.make CMakeFiles/cmTC_d4345.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d4345.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec -o CMakeFiles/cmTC_d4345.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4345
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4345.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec -rdynamic CMakeFiles/cmTC_d4345.dir/CheckFunctionExists.c.o -o cmTC_d4345  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_d4345.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_simd_altivec'
+CMakeFiles/cmTC_d4345.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_simd_altivec'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_d4345] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_d4345/fast] 错误 2
+
+
+
+Determining if the function fftwf_have_altivec exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb91b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb91b.dir/build.make CMakeFiles/cmTC_cb91b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cb91b.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_altivec -o CMakeFiles/cmTC_cb91b.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb91b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb91b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_have_altivec -rdynamic CMakeFiles/cmTC_cb91b.dir/CheckFunctionExists.c.o -o cmTC_cb91b  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+CMakeFiles/cmTC_cb91b.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `fftwf_have_altivec'
+CMakeFiles/cmTC_cb91b.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `fftwf_have_altivec'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_cb91b] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_cb91b/fast] 错误 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4aac4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4aac4.dir/build.make CMakeFiles/cmTC_4aac4.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4aac4.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_4aac4.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4aac4
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aac4.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_4aac4.dir/CheckFunctionExists.c.o -o cmTC_4aac4 
+CMakeFiles/cmTC_4aac4.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0xc): undefined reference to `sgemm_'
+CMakeFiles/cmTC_4aac4.dir/CheckFunctionExists.c.o: In function `main':
+(.text.startup.main+0x24): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_4aac4] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_4aac4/fast] 错误 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4eeee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4eeee.dir/build.make CMakeFiles/cmTC_4eeee.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4eeee.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_4eeee.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4eeee
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eeee.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_4eeee.dir/CheckFunctionExists.c.o -o cmTC_4eeee  -SSL2 
+sw9gcc: error: unrecognized command line option '-SSL2'
+gmake[1]: *** [cmTC_4eeee] 错误 1
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+gmake: *** [cmTC_4eeee/fast] 错误 2
+
+
+

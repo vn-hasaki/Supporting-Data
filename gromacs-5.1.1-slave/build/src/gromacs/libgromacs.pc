@@ -1,0 +1,11 @@
+libdir=/home/export/base/shisuan/swyaow/online/luhao/zx/APP/gmx511/lib64
+
+Name: libgromacs_mpi
+Description: Gromacs library
+URL: http://www.gromacs.org
+Version: 5.1.1
+Requires: fftw3f 
+Libs.private:   
+Libs: -L${libdir} -lgromacs_mpi  -lm
+Cflags:  -I/home/export/base/shisuan/swyaow/online/luhao/zx/APP/gmx511/include -I/home/export/base/shisuan/swyaow/online/luhao/zx/APP/gmx511/include/gromacs/external/boost -DGMX_SOFTWARE_INVSQRT 
+

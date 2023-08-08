@@ -1,0 +1,1201 @@
+The system is: Linux - 3.10.0-862.14.4.el7.sw.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/sw/mpi/mpi_current/bin/mpicc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/3.21.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/sw/mpi/mpi_current/bin/mpic++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/3.21.0-rc2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27b40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27b40.dir/build.make CMakeFiles/cmTC_27b40.dir/build
+gmake[1]: Entering directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -v -o CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+mpicc for MPICH version 3.2b2
+Reading specs from /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/specs
+COLLECT_GCC=sw9gcc
+Target: sw_64sw6a-sunway-linux-gnu
+Configured with: /usr1/comp9/swgcc710/gcc-7.1.0/configure --prefix=/usr1/comp9/swgcc710-tools-SEA-1208/usr --with-gmp=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-mpfr=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-isl=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --enable-shared --enable-languages=c,c++,fortran --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=sw_64sw6a-sunway-linux-gnu --disable-multilib --enable-c99 --enable-long-long --enable-threads=posix --enable-__cxa_atexit --disable-nls --disable-libgcc_slave --disable-libgfortran_slave --disable-libstdcxx_slave --with-sysroot=/usr1/comp9/swgcc710-tools-SEA-1208 CFLAGS='-g -gdwarf-2' CXXFLAGS='-g -gdwarf-2' --disable-werror
+Thread model: posix
+gcc version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a'
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/cc1 -quiet -v -I /usr/sw/mpi/mpi_20210609_SEA/include -iprefix /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/ -isysroot /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208 -D_SIMD_HOST /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=sw6a -auxbase-strip CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -version -D_SIMD_HOST -o /tmp/ccoNxf6i.s
+GNU C11 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include"
+ignoring nonexistent directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/local/include"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/sw/mpi/mpi_20210609_SEA/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include
+End of search list.
+GNU C11 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 1baeac2984beb1e44539aac4e9a77645
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a'
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/as -v -I /usr/sw/mpi/mpi_20210609_SEA/include -no-mdebug -msw6a -o CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o /tmp/ccoNxf6i.s
+GNU assembler version 2.24 (sw_64sw6a-sunway-linux-gnu) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/../../usr_sw/bin/
+LIBRARY_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/sw_64sw6a-sunway-linux-gnu/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a'
+Linking C executable cmTC_27b40
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27b40.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -o cmTC_27b40 
+mpicc for MPICH version 3.2b2
+gmake[1]: Leaving directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/sw/mpi/mpi_20210609_SEA/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include]
+  end of search list found
+  collapse include dir [/usr/sw/mpi/mpi_20210609_SEA/include] ==> [/usr/sw/mpi/mpi_20210609_SEA/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/shared_include]
+  implicit include dirs: [/usr/sw/mpi/mpi_20210609_SEA/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/shared_include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27b40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27b40.dir/build.make CMakeFiles/cmTC_27b40.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/sw/mpi/mpi_current/bin/mpicc   -v -o CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [mpicc for MPICH version 3.2b2]
+  ignore line: [Reading specs from /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/specs]
+  ignore line: [COLLECT_GCC=sw9gcc]
+  ignore line: [Target: sw_64sw6a-sunway-linux-gnu]
+  ignore line: [Configured with: /usr1/comp9/swgcc710/gcc-7.1.0/configure --prefix=/usr1/comp9/swgcc710-tools-SEA-1208/usr --with-gmp=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-mpfr=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-isl=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --enable-shared --enable-languages=c c++ fortran --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=sw_64sw6a-sunway-linux-gnu --disable-multilib --enable-c99 --enable-long-long --enable-threads=posix --enable-__cxa_atexit --disable-nls --disable-libgcc_slave --disable-libgfortran_slave --disable-libstdcxx_slave --with-sysroot=/usr1/comp9/swgcc710-tools-SEA-1208 CFLAGS='-g -gdwarf-2' CXXFLAGS='-g -gdwarf-2' --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a']
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/cc1 -quiet -v -I /usr/sw/mpi/mpi_20210609_SEA/include -iprefix /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/ -isysroot /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208 -D_SIMD_HOST /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=sw6a -auxbase-strip CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -version -D_SIMD_HOST -o /tmp/ccoNxf6i.s]
+  ignore line: [GNU C11 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/sw/mpi/mpi_20210609_SEA/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 1baeac2984beb1e44539aac4e9a77645]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a']
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/as -v -I /usr/sw/mpi/mpi_20210609_SEA/include -no-mdebug -msw6a -o CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o /tmp/ccoNxf6i.s]
+  ignore line: [GNU assembler version 2.24 (sw_64sw6a-sunway-linux-gnu) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/../../usr_sw/bin/]
+  ignore line: [LIBRARY_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/sw_64sw6a-sunway-linux-gnu/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-mcpu=sw6a']
+  ignore line: [Linking C executable cmTC_27b40]
+  ignore line: [/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27b40.dir/link.txt --verbose=1]
+  ignore line: [/usr/sw/mpi/mpi_current/bin/mpicc  -v -rdynamic CMakeFiles/cmTC_27b40.dir/CMakeCCompilerABI.c.o -o cmTC_27b40 ]
+  ignore line: [mpicc for MPICH version 3.2b2]
+  ignore line: [gmake[1]: Leaving directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59ed7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59ed7.dir/build.make CMakeFiles/cmTC_59ed7.dir/build
+gmake[1]: Entering directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -v -o CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+mpicxx for MPICH version 3.2b2
+Reading specs from /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/specs
+COLLECT_GCC=swg++
+Target: sw_64sw6a-sunway-linux-gnu
+Configured with: /usr1/comp9/swgcc710/gcc-7.1.0/configure --prefix=/usr1/comp9/swgcc710-tools-SEA-1208/usr --with-gmp=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-mpfr=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-isl=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --enable-shared --enable-languages=c,c++,fortran --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=sw_64sw6a-sunway-linux-gnu --disable-multilib --enable-c99 --enable-long-long --enable-threads=posix --enable-__cxa_atexit --disable-nls --disable-libgcc_slave --disable-libgfortran_slave --disable-libstdcxx_slave --with-sysroot=/usr1/comp9/swgcc710-tools-SEA-1208 CFLAGS='-g -gdwarf-2' CXXFLAGS='-g -gdwarf-2' --disable-werror
+Thread model: posix
+gcc version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a'
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/cc1plus -quiet -v -I /usr/sw/mpi/mpi_20210609_SEA/include -iprefix /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/ -isysroot /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208 /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=sw6a -auxbase-strip CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -version -D_SIMD_HOST -o /tmp/cc3fkV3y.s
+GNU C++14 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include"
+ignoring nonexistent directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/local/include"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include"
+ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/sw/mpi/mpi_20210609_SEA/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include
+End of search list.
+GNU C++14 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.15-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 80bc3de809f627b8576b2864bf51b8fd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a'
+ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/as -v -I /usr/sw/mpi/mpi_20210609_SEA/include -no-mdebug -msw6a -o CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3fkV3y.s
+GNU assembler version 2.24 (sw_64sw6a-sunway-linux-gnu) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/../../usr_sw/bin/
+LIBRARY_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/sw_64sw6a-sunway-linux-gnu/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a'
+Linking CXX executable cmTC_59ed7
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ed7.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -v -rdynamic CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_59ed7 
+mpicxx for MPICH version 3.2b2
+gmake[1]: Leaving directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/sw/mpi/mpi_20210609_SEA/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include]
+    add: [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include]
+  end of search list found
+  collapse include dir [/usr/sw/mpi/mpi_20210609_SEA/include] ==> [/usr/sw/mpi/mpi_20210609_SEA/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include]
+  collapse include dir [/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include] ==> [/usr/sw/swgcc/swgcc710-tools-SEA-1208/shared_include]
+  implicit include dirs: [/usr/sw/mpi/mpi_20210609_SEA/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed;/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/sw_64sw6a-sunway-linux-gnu/include;/usr/sw/swgcc/swgcc710-tools-SEA-1208/shared_include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59ed7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59ed7.dir/build.make CMakeFiles/cmTC_59ed7.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/sw/mpi/mpi_current/bin/mpic++   -v -o CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [mpicxx for MPICH version 3.2b2]
+  ignore line: [Reading specs from /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/specs]
+  ignore line: [COLLECT_GCC=swg++]
+  ignore line: [Target: sw_64sw6a-sunway-linux-gnu]
+  ignore line: [Configured with: /usr1/comp9/swgcc710/gcc-7.1.0/configure --prefix=/usr1/comp9/swgcc710-tools-SEA-1208/usr --with-gmp=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-mpfr=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --with-isl=/usr1/comp9/swgcc710-tools-SEA-1208/usr/lib_for_gcc --enable-shared --enable-languages=c c++ fortran --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=sw_64sw6a-sunway-linux-gnu --disable-multilib --enable-c99 --enable-long-long --enable-threads=posix --enable-__cxa_atexit --disable-nls --disable-libgcc_slave --disable-libgfortran_slave --disable-libstdcxx_slave --with-sysroot=/usr1/comp9/swgcc710-tools-SEA-1208 CFLAGS='-g -gdwarf-2' CXXFLAGS='-g -gdwarf-2' --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a']
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/cc1plus -quiet -v -I /usr/sw/mpi/mpi_20210609_SEA/include -iprefix /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/ -isysroot /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208 /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=sw6a -auxbase-strip CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -version -D_SIMD_HOST -o /tmp/cc3fkV3y.s]
+  ignore line: [GNU C++14 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/../../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/sw/mpi/mpi_20210609_SEA/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/sw_64sw6a-sunway-linux-gnu]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include/c++/7.1.0/backward]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/include-fixed]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/include]
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/shared_include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 7.1.0 20170502 (swgcc-1208 Committer: zhuq <zhuq9@localhost.localdomain> by comp9 at localhost.localdomain on Thu Feb 18 20:32:34 CST 2021) (sw_64sw6a-sunway-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-16)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.15-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 80bc3de809f627b8576b2864bf51b8fd]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a']
+  ignore line: [ /usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/as -v -I /usr/sw/mpi/mpi_20210609_SEA/include -no-mdebug -msw6a -o CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3fkV3y.s]
+  ignore line: [GNU assembler version 2.24 (sw_64sw6a-sunway-linux-gnu) using BFD version (GNU Binutils) 2.24]
+  ignore line: [COMPILER_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../libexec/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/bin/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/../../usr_sw/bin/]
+  ignore line: [LIBRARY_PATH=/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/../../../../sw_64sw6a-sunway-linux-gnu/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/lib/gcc/sw_64sw6a-sunway-linux-gnu/7.1.0/:/usr/sw/swgcc/swgcc710-tools-SEA-1208/usr/bin/../../../swgcc710-tools-SEA-1208/usr_sw/sw_64sw6a-sunway-linux-gnu/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/sw/mpi/mpi_20210609_SEA/include' '-shared-libgcc' '-mcpu=sw6a']
+  ignore line: [Linking CXX executable cmTC_59ed7]
+  ignore line: [/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59ed7.dir/link.txt --verbose=1]
+  ignore line: [/usr/sw/mpi/mpi_current/bin/mpic++  -v -rdynamic CMakeFiles/cmTC_59ed7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_59ed7 ]
+  ignore line: [mpicxx for MPICH version 3.2b2]
+  ignore line: [gmake[1]: Leaving directory `/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CFLAGS_PRAGMA succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c09aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c09aa.dir/build.make CMakeFiles/cmTC_c09aa.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c09aa.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_PRAGMA  -Wno-unknown-pragmas -o CMakeFiles/cmTC_c09aa.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c09aa
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c09aa.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wno-unknown-pragmas -rdynamic CMakeFiles/cmTC_c09aa.dir/src.c.o -o cmTC_c09aa 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4bde3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4bde3.dir/build.make CMakeFiles/cmTC_4bde3.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4bde3.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_WARN  -Wall -Wno-unused -Wunused-value -Wunused-parameter -o CMakeFiles/cmTC_4bde3.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4bde3
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bde3.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wall -Wno-unused -Wunused-value -Wunused-parameter -rdynamic CMakeFiles/cmTC_4bde3.dir/src.c.o -o cmTC_4bde3 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b080e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b080e.dir/build.make CMakeFiles/cmTC_b080e.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b080e.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_WARN_EXTRA  -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -o CMakeFiles/cmTC_b080e.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b080e
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b080e.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -rdynamic CMakeFiles/cmTC_b080e.dir/src.c.o -o cmTC_b080e 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53692/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53692.dir/build.make CMakeFiles/cmTC_53692.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_53692.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_WARN_UNDEF  -Wundef -o CMakeFiles/cmTC_53692.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_53692
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53692.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -rdynamic CMakeFiles/cmTC_53692.dir/src.c.o -o cmTC_53692 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c3d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c3d7.dir/build.make CMakeFiles/cmTC_8c3d7.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8c3d7.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_WARN_REL  -Wno-array-bounds -o CMakeFiles/cmTC_8c3d7.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c3d7
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c3d7.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wno-array-bounds -rdynamic CMakeFiles/cmTC_8c3d7.dir/src.c.o -o cmTC_8c3d7 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57eab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57eab.dir/build.make CMakeFiles/cmTC_57eab.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_57eab.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_EXCESS_PREC  -fexcess-precision=fast -o CMakeFiles/cmTC_57eab.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_57eab
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57eab.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -fexcess-precision=fast -rdynamic CMakeFiles/cmTC_57eab.dir/src.c.o -o cmTC_57eab 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_607fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_607fa.dir/build.make CMakeFiles/cmTC_607fa.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_607fa.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_COPT  -funroll-all-loops -o CMakeFiles/cmTC_607fa.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_607fa
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_607fa.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -funroll-all-loops -rdynamic CMakeFiles/cmTC_607fa.dir/src.c.o -o cmTC_607fa 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b91e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b91e.dir/build.make CMakeFiles/cmTC_8b91e.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8b91e.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCFLAGS_NOINLINE  -fno-inline -o CMakeFiles/cmTC_8b91e.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8b91e
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b91e.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -fno-inline -rdynamic CMakeFiles/cmTC_8b91e.dir/src.c.o -o cmTC_8b91e 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_PRAGMA succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_899fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_899fc.dir/build.make CMakeFiles/cmTC_899fc.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_899fc.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_PRAGMA  -Wno-unknown-pragmas -o CMakeFiles/cmTC_899fc.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_899fc
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_899fc.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wno-unknown-pragmas -rdynamic CMakeFiles/cmTC_899fc.dir/src.cxx.o -o cmTC_899fc 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b389/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b389.dir/build.make CMakeFiles/cmTC_4b389.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_4b389.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_WARN  -Wall -Wno-unused-function -o CMakeFiles/cmTC_4b389.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b389
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b389.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wall -Wno-unused-function -rdynamic CMakeFiles/cmTC_4b389.dir/src.cxx.o -o cmTC_4b389 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01b78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01b78.dir/build.make CMakeFiles/cmTC_01b78.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_01b78.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_WARN_EXTRA  -Wextra -Wno-missing-field-initializers -Wpointer-arith -o CMakeFiles/cmTC_01b78.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_01b78
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b78.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wextra -Wno-missing-field-initializers -Wpointer-arith -rdynamic CMakeFiles/cmTC_01b78.dir/src.cxx.o -o cmTC_01b78 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7cae9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7cae9.dir/build.make CMakeFiles/cmTC_7cae9.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7cae9.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_WARN_UNDEF  -Wundef -o CMakeFiles/cmTC_7cae9.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7cae9
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cae9.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -rdynamic CMakeFiles/cmTC_7cae9.dir/src.cxx.o -o cmTC_7cae9 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test CXXFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f956/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f956.dir/build.make CMakeFiles/cmTC_7f956.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7f956.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCXXFLAGS_WARN_REL  -Wno-array-bounds -o CMakeFiles/cmTC_7f956.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f956
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f956.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wno-array-bounds -rdynamic CMakeFiles/cmTC_7f956.dir/src.c.o -o cmTC_7f956 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08973/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08973.dir/build.make CMakeFiles/cmTC_08973.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_08973.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_EXCESS_PREC  -fexcess-precision=fast -o CMakeFiles/cmTC_08973.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_08973
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08973.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -fexcess-precision=fast -rdynamic CMakeFiles/cmTC_08973.dir/src.cxx.o -o cmTC_08973 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef76b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef76b.dir/build.make CMakeFiles/cmTC_ef76b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ef76b.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_COPT  -funroll-all-loops -o CMakeFiles/cmTC_ef76b.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ef76b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef76b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -funroll-all-loops -rdynamic CMakeFiles/cmTC_ef76b.dir/src.cxx.o -o cmTC_ef76b 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63fc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63fc7.dir/build.make CMakeFiles/cmTC_63fc7.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_63fc7.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAGS_NOINLINE  -fno-inline -o CMakeFiles/cmTC_63fc7.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_63fc7
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fc7.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -fno-inline -rdynamic CMakeFiles/cmTC_63fc7.dir/src.cxx.o -o cmTC_63fc7 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9676b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9676b.dir/build.make CMakeFiles/cmTC_9676b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9676b.dir/HAVE_UNISTD_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_9676b.dir/HAVE_UNISTD_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_9676b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9676b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_9676b.dir/HAVE_UNISTD_H.c.o -o cmTC_9676b 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd96c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd96c.dir/build.make CMakeFiles/cmTC_cd96c.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd96c.dir/HAVE_PWD_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_cd96c.dir/HAVE_PWD_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
+Linking C executable cmTC_cd96c
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd96c.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_cd96c.dir/HAVE_PWD_H.c.o -o cmTC_cd96c 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_379dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_379dd.dir/build.make CMakeFiles/cmTC_379dd.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_379dd.dir/HAVE_DIRENT_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_379dd.dir/HAVE_DIRENT_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
+Linking C executable cmTC_379dd
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_379dd.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_379dd.dir/HAVE_DIRENT_H.c.o -o cmTC_379dd 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f376/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f376.dir/build.make CMakeFiles/cmTC_7f376.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7f376.dir/HAVE_TIME_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_7f376.dir/HAVE_TIME_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_7f376
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f376.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_7f376.dir/HAVE_TIME_H.c.o -o cmTC_7f376 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cbfa1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cbfa1.dir/build.make CMakeFiles/cmTC_cbfa1.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cbfa1.dir/HAVE_SYS_TIME_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_cbfa1.dir/HAVE_SYS_TIME_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_cbfa1
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbfa1.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_cbfa1.dir/HAVE_SYS_TIME_H.c.o -o cmTC_cbfa1 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b6c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b6c6.dir/build.make CMakeFiles/cmTC_0b6c6.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0b6c6.dir/HAVE_SCHED_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_0b6c6.dir/HAVE_SCHED_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_SCHED_H.c
+Linking C executable cmTC_0b6c6
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b6c6.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_0b6c6.dir/HAVE_SCHED_H.c.o -o cmTC_0b6c6 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc945/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc945.dir/build.make CMakeFiles/cmTC_fc945.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fc945.dir/HAVE_POSIX_REGEX.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_fc945.dir/HAVE_POSIX_REGEX.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_POSIX_REGEX.c
+Linking C executable cmTC_fc945
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc945.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_fc945.dir/HAVE_POSIX_REGEX.c.o -o cmTC_fc945 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75903/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75903.dir/build.make CMakeFiles/cmTC_75903.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_75903.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_75903.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_75903
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75903.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_75903.dir/CheckSymbolExists.cxx.o -o cmTC_75903 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e212c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e212c.dir/build.make CMakeFiles/cmTC_e212c.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e212c.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_e212c.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e212c
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e212c.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_e212c.dir/CheckSymbolExists.cxx.o -o cmTC_e212c 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12c38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12c38.dir/build.make CMakeFiles/cmTC_12c38.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_12c38.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_12c38.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_12c38
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c38.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_12c38.dir/CheckSymbolExists.cxx.o -o cmTC_12c38 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nice exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73d1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73d1b.dir/build.make CMakeFiles/cmTC_73d1b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_73d1b.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_73d1b.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_73d1b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d1b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_73d1b.dir/CheckSymbolExists.cxx.o -o cmTC_73d1b 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fsync exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0f76/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0f76.dir/build.make CMakeFiles/cmTC_a0f76.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a0f76.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_a0f76.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a0f76
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f76.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_a0f76.dir/CheckSymbolExists.cxx.o -o cmTC_a0f76 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fileno exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5069a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5069a.dir/build.make CMakeFiles/cmTC_5069a.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5069a.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_5069a.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_5069a
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5069a.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_5069a.dir/CheckSymbolExists.cxx.o -o cmTC_5069a 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e38b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e38b.dir/build.make CMakeFiles/cmTC_3e38b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_3e38b.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_3e38b.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3e38b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e38b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_3e38b.dir/CheckSymbolExists.cxx.o -o cmTC_3e38b 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee30d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee30d.dir/build.make CMakeFiles/cmTC_ee30d.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ee30d.dir/CheckSymbolExists.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_ee30d.dir/CheckSymbolExists.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ee30d
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee30d.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_ee30d.dir/CheckSymbolExists.cxx.o -o cmTC_ee30d 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+File /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1517c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1517c.dir/build.make CMakeFiles/cmTC_1517c.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1517c.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_1517c.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1517c
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1517c.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=clock_gettime -rdynamic CMakeFiles/cmTC_1517c.dir/CheckFunctionExists.c.o -o cmTC_1517c  -lrt 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0763f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0763f.dir/build.make CMakeFiles/cmTC_0763f.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0763f.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=feenableexcept -o CMakeFiles/cmTC_0763f.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0763f
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0763f.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=feenableexcept -rdynamic CMakeFiles/cmTC_0763f.dir/CheckFunctionExists.c.o -o cmTC_0763f  -lm 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f54e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f54e.dir/build.make CMakeFiles/cmTC_3f54e.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3f54e.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -Dsched_affinity_compile  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_3f54e.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3f54e
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f54e.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_3f54e.dir/src.c.o -o cmTC_3f54e 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Performing C SOURCE FILE Test MPI_IN_PLACE_COMPILE_OK succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ecb2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ecb2.dir/build.make CMakeFiles/cmTC_8ecb2.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8ecb2.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DMPI_IN_PLACE_COMPILE_OK  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_8ecb2.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: 'buf' is used uninitialized in this function [-Wuninitialized]
+   MPI_Allreduce(MPI_IN_PLACE, buf, 10, MPI_FLOAT, MPI_SUM, MPI_COMM_WORLD);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_8ecb2
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ecb2.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_8ecb2.dir/src.c.o -o cmTC_8ecb2 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <mpi.h>
+int main(void) {
+  void* buf;
+  MPI_Allreduce(MPI_IN_PLACE, buf, 10, MPI_FLOAT, MPI_SUM, MPI_COMM_WORLD);
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13242/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13242.dir/build.make CMakeFiles/cmTC_13242.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_13242.dir/CheckIncludeFile.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_13242.dir/CheckIncludeFile.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_13242
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13242.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_13242.dir/CheckIncludeFile.c.o -o cmTC_13242 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fc6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fc6f.dir/build.make CMakeFiles/cmTC_4fc6f.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4fc6f.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_4fc6f.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4fc6f
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc6f.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_4fc6f.dir/src.c.o -o cmTC_4fc6f 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e769b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e769b.dir/build.make CMakeFiles/cmTC_e769b.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e769b.dir/HAVE_PTHREAD_H.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_e769b.dir/HAVE_PTHREAD_H.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_H.c
+Linking C executable cmTC_e769b
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e769b.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_e769b.dir/HAVE_PTHREAD_H.c.o -o cmTC_e769b 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1fd83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fd83.dir/build.make CMakeFiles/cmTC_1fd83.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1fd83.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DPTHREAD_SETAFFINITY  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_1fd83.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1fd83
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd83.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_1fd83.dir/src.c.o -o cmTC_1fd83 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test isfinite_compile_ok succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a5b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a5b0.dir/build.make CMakeFiles/cmTC_1a5b0.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1a5b0.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -Disfinite_compile_ok -I/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/math.h -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_1a5b0.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1a5b0
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a5b0.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_1a5b0.dir/src.c.o -o cmTC_1a5b0  -lm 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  isfinite(f);
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9d2e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9d2e.dir/build.make CMakeFiles/cmTC_c9d2e.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c9d2e.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DCXXFLAG_STD_CXX0X  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -std=c++0x -o CMakeFiles/cmTC_c9d2e.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9d2e
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9d2e.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -std=c++0x -rdynamic CMakeFiles/cmTC_c9d2e.dir/src.cxx.o -o cmTC_c9d2e 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test GMX_CXX11_SUPPORTED succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_173da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_173da.dir/build.make CMakeFiles/cmTC_173da.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_173da.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DGMX_CXX11_SUPPORTED  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -std=c++0x -o CMakeFiles/cmTC_173da.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_173da
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_173da.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -std=c++0x -rdynamic CMakeFiles/cmTC_173da.dir/src.cxx.o -o cmTC_173da 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <vector>
+#include <memory>
+#include <utility>
+struct A {
+  A(int *i=NULL) : p(i) {} ;
+  std::unique_ptr<int> p;
+};
+template <typename Head, typename... Tail>
+struct VarList {
+  typedef VarList<Tail...> VarListTail;
+  typedef std::pair<Head, typename VarListTail::ListType> ListType;
+};
+class a { explicit operator bool() {return true;} };
+int main() {
+  typedef std::unique_ptr<int> intPointer;
+  intPointer p(new int(10));
+  std::vector<intPointer> v;
+  v.push_back(std::move(p));
+  std::vector<A> v2;
+  v2.push_back(A());  //requires default move constructor
+  v2.push_back(A(new int(5))); //detects bug in ICC
+}
+Determining if the include file regex exists passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9f8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9f8c.dir/build.make CMakeFiles/cmTC_e9f8c.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e9f8c.dir/CheckIncludeFile.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++   -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -o CMakeFiles/cmTC_e9f8c.dir/CheckIncludeFile.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e9f8c
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9f8c.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_e9f8c.dir/CheckIncludeFile.cxx.o -o cmTC_e9f8c 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test _callconv_ succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6afbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6afbd.dir/build.make CMakeFiles/cmTC_6afbd.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6afbd.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -D_callconv_  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_6afbd.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6afbd
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6afbd.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_6afbd.dir/src.c.o -o cmTC_6afbd 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int  f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function fftwf_plan_r2r_1d exists in the /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f1b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f1b8.dir/build.make CMakeFiles/cmTC_3f1b8.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3f1b8.dir/CheckFunctionExists.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_plan_r2r_1d -o CMakeFiles/cmTC_3f1b8.dir/CheckFunctionExists.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3f1b8
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f1b8.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fftwf_plan_r2r_1d -rdynamic CMakeFiles/cmTC_3f1b8.dir/CheckFunctionExists.c.o -o cmTC_3f1b8  /usr/sw/yyzlib/fftw-3.3.8f/lib/libfftw3f.a -lm 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C SOURCE FILE Test HAVE_DLOPEN succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84a76/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84a76.dir/build.make CMakeFiles/cmTC_84a76.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_84a76.dir/src.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc -DHAVE_DLOPEN -I/home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/dlfcn.h -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_84a76.dir/src.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_84a76
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a76.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_84a76.dir/src.c.o -o cmTC_84a76  -ldl 
+CMakeFiles/cmTC_84a76.dir/src.c.o: In function `main':
+(.text.startup.main+0xc): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eae3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eae3a.dir/build.make CMakeFiles/cmTC_eae3a.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_eae3a.dir/CheckIncludeFile.c.o
+/usr/sw/mpi/mpi_current/bin/mpicc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -o CMakeFiles/cmTC_eae3a.dir/CheckIncludeFile.c.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eae3a
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae3a.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpicc     -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wno-unknown-pragmas   -rdynamic CMakeFiles/cmTC_eae3a.dir/CheckIncludeFile.c.o -o cmTC_eae3a 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d644/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d644.dir/build.make CMakeFiles/cmTC_1d644.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1d644.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DHAS_NO_UNUSED_PARAMETER  -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -Wno-unused-parameter -o CMakeFiles/cmTC_1d644.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1d644
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d644.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++    -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -Wno-unused-parameter -rdynamic CMakeFiles/cmTC_1d644.dir/src.cxx.o -o cmTC_1d644 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_DEPRECATED_REGISTER succeeded with the following output:
+Change Dir: /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18cc9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18cc9.dir/build.make CMakeFiles/cmTC_18cc9.dir/build
+gmake[1]: 进入目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_18cc9.dir/src.cxx.o
+/usr/sw/mpi/mpi_current/bin/mpic++ -DHAS_NO_DEPRECATED_REGISTER  -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -Wno-deprecated-register -o CMakeFiles/cmTC_18cc9.dir/src.cxx.o -c /home/export/base/shisuan/swyaow/online/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18cc9
+/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/APP/cmake-3.21.0-rc2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cc9.dir/link.txt --verbose=1
+/usr/sw/mpi/mpi_current/bin/mpic++    -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function -Wno-unknown-pragmas  -Wno-deprecated-register -rdynamic CMakeFiles/cmTC_18cc9.dir/src.cxx.o -o cmTC_18cc9 
+gmake[1]: 离开目录“/home/export/online1/mdt00/shisuan/swyaow/luhao/zx/test/gromacs-5.1.1-test/build/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+int main() { return 0;}
